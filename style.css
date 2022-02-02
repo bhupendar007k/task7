@@ -1,0 +1,40 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+#container {
+  display: flex;
+  justify-content: stretch;
+  background-color: #3b5998;
+  height: 13vh;
+  width: 100%;
+  position: fixed;
+}
+#row {
+  margin-top: 3%;
+  display: flex;
+  right: 150px;
+  width: auto;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+#logo {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  color: aliceblue;
+  font-size: 50px;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.btn {
+  height: 20px;
+  color: black;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#inp {
+  color: #0000;
+}
